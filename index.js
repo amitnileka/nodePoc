@@ -7,7 +7,7 @@ const app = express();
 app.use(cors("*"));
 app.use('/users',appForUser);
 app.get('',(request,response)=>{
-    response.send("Welcome to my page");
+    response.send("Welcome to my website.....");
 });
 
 
